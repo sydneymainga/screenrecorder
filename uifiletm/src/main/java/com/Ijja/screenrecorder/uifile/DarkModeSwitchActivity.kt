@@ -83,4 +83,6 @@ abstract class DarkModeSwitchActivity : AppCompatActivity() {
   } else {
       R.style.AppTheme
   }
+
+
 }

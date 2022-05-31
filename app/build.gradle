@@ -81,6 +81,11 @@ dependencies {
 
     // Add the Firebase Crashlytics SDK.
     implementation 'com.google.firebase:firebase-crashlytics:17.1.1'
+
+    //timber
+
+//    implementation 'com.jakewharton.timber:timber:4.7.1'
+//    implementation 'com.github.ajalt:timberkt:1.5.1'
 }
 
 apply from: '../spotless.gradle'

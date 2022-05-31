@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-71:12
 MERGED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-61:12
 MERGED from [:notificationssetup] C:\Users\syd\Desktop\screenrecorder\screenrecorder\notificationssetup\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:uifiletm] C:\Users\syd\Desktop\screenrecorder\screenrecorder\uifiletm\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
@@ -89,22 +89,22 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\2ba4a89291bf5d244e1a5bb4c5f4539d\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0e341a02176e47e10da3fa462baa2508\jetified-play-services-ads-base-19.1.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\1d07aac04318340dcf6e270d970349c4\jetified-transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
-INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-71:12
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-71:12
 	package
 		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:4:5-38
 		INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-71:12
 		INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-71:12
 		INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:11-69
@@ -124,8 +124,12 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:9:5-81
 	android:name
 		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:10:5-82
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:10:22-79
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:10:5-67
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:10:5-67
 MERGED from [com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:10:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:22:5-67
@@ -145,17 +149,17 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.4] C:
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:10:22-64
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:11:22-77
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:12:22-77
 uses-permission#TASKS
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:15:5-45
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:16:5-45
 	android:name
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:15:22-42
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:16:22-42
 application
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:17:5-68:19
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:18:5-69:19
 MERGED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-59:19
 MERGED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-59:19
 MERGED from [com.afollestad.material-dialogs:files:3.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\801bcb8c4788ee081ee05da2f1f89c41\jetified-files-3.1.0\AndroidManifest.xml:11:5-47
@@ -235,91 +239,91 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\
 MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0e341a02176e47e10da3fa462baa2508\jetified-play-services-ads-base-19.1.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0e341a02176e47e10da3fa462baa2508\jetified-play-services-ads-base-19.1.0\AndroidManifest.xml:7:5-20
 	android:requestLegacyExternalStorage
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:24:9-52
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:25:9-52
 	android:preserveLegacyExternalStorage
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:19:9-53
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:20:9-53
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\05f61c282a3cccb2d42fd5bc45cf9206\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:26:9-35
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:27:9-35
 	android:label
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:24:9-41
 	android:exported
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:18:9-32
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:19:9-32
 	tools:ignore
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:28:9-60
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:29:9-60
 	android:roundIcon
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:25:9-55
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:26:9-55
 	android:icon
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:22:9-43
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:23:9-43
 	android:allowBackup
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:22:9-35
 	android:theme
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:27:9-40
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:28:9-40
 	android:name
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:20:9-53
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:21:9-53
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:29:9-31:52
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:30:9-32:52
 	android:value
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:31:13-49
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:32:13-49
 	android:name
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:30:13-69
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:31:13-69
 activity#com.Ijja.screenrecorder.uiterfacec.mainactivities.MainActivity
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:33:9-47:20
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:34:9-48:20
 	android:label
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:35:13-51
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:36:13-51
 	android:launchMode
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:36:13-48
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:37:13-48
 	android:exported
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:37:13-36
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:38:13-36
 	android:name
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:34:13-90
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:35:13-90
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:38:13-42:29
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:39:13-43:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:39:17-69
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:40:17-69
 	android:name
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:39:25-66
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:40:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:41:17-77
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:42:17-77
 	android:name
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:41:27-74
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:42:27-74
 meta-data#android.app.shortcuts
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:44:13-46:53
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:45:13-47:53
 	android:resource
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:46:17-50
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:47:17-50
 	android:name
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:45:17-53
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:46:17-53
 activity#com.Ijja.screenrecorder.shortcutsdirect.ShortcutActivity
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:48:9-56:20
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:49:9-57:20
 	android:excludeFromRecents
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:50:13-46
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:51:13-46
 	android:exported
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:52:13-36
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:53:13-36
 	android:theme
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:51:13-56
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:52:13-56
 	android:name
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:49:13-84
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:50:13-84
 intent-filter#action:name:android.intent.action.VIEW
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:53:13-55:29
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:54:13-56:29
 action#android.intent.action.VIEW
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:54:17-69
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:55:17-69
 	android:name
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:54:25-66
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:55:25-66
 activity#com.Ijja.screenrecorder.uiterfacec.settings.SettingsActivitymain
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:58:9-65:20
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:59:9-66:20
 	android:label
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:60:13-45
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:61:13-45
 	android:exported
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:61:13-36
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:62:13-36
 	android:name
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:59:13-92
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:60:13-92
 intent-filter#action:name:android.service.quicksettings.action.QS_TILE_PREFERENCES
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:62:13-64:29
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:63:13-65:29
 action#android.service.quicksettings.action.QS_TILE_PREFERENCES
-ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:63:17-99
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:64:17-99
 	android:name
-		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:63:25-96
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:64:25-96
 uses-sdk
 INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml

@@ -21,9 +21,20 @@ import android.content.Intent
 import android.content.Intent.ACTION_SEND
 import android.content.Intent.ACTION_VIEW
 import android.content.Intent.EXTRA_STREAM
+import android.content.pm.PackageManager.PERMISSION_GRANTED
+import android.net.Uri
+import android.os.Build
+import android.os.Build.VERSION.SDK_INT
 import android.os.Bundle
-import android.provider.Settings.ACTION_MANAGE_OVERLAY_PERMISSION
+import android.os.Environment
+import android.provider.Settings.*
+import android.util.Log
+import android.widget.Toast
+import androidx.annotation.Nullable
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import androidx.lifecycle.Observer
+import com.Ijja.screenrecorder.BuildConfig
 import com.afollestad.assent.Permission.WRITE_EXTERNAL_STORAGE
 import com.afollestad.assent.askForPermissions
 import com.afollestad.inlineactivityresult.startActivityForResult
@@ -58,6 +69,7 @@ import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.Ijja.screenrecorder.utilcmnuse.view.*
+import com.afollestad.assent.Permission
 import io.reactivex.android.schedulers.AndroidSchedulers.mainThread
 import kotlinx.android.synthetic.main.activity_main.empty_view
 import kotlinx.android.synthetic.main.activity_main.fab
@@ -73,6 +85,14 @@ import kotlinx.android.synthetic.main.include_appbar.toolbar_title as toolbarTit
 
 /** (rdbrain) */
 class MainActivity : DarkModeSwitchActivity(), OverlayExplanationCallback {
+
+
+    private companion object {
+        private const val DRAW_OVER_OTHER_APP_PERMISSION = 68
+        private const val STORAGE_PERMISSION = 64
+        val PERMISSION_REQUEST_CODE = 0
+        //val TAG = MainActivity::class.simpleName
+    }
 
     private val viewModel by viewModel<MainViewModel>()
     private val urlLauncher by inject<UrlLauncher> { parametersOf(this) }
@@ -123,6 +143,10 @@ class MainActivity : DarkModeSwitchActivity(), OverlayExplanationCallback {
                     areContentsTheSame = Recording.Companion::areContentsTheSame
                 )
             })
+
+        if (BuildConfig.DEBUG) {
+            Timber.plant(Timber.DebugTree())
+        }
         viewModel.onFabColorRes()
             .asBackgroundTint(this, fab)
         viewModel.onFabIconRes()
@@ -146,7 +170,90 @@ class MainActivity : DarkModeSwitchActivity(), OverlayExplanationCallback {
             .attachLifecycle(this)
 
         checkForMediaProjectionAvailability()
+
+
+        val permissionGranted = checkPermission()
+        if (permissionGranted) {
+
+           // Log.d(TAG, "PERMISSION ALREADY GRANTED")
+
+            Toast.makeText(applicationContext,"Permission Already Granted",Toast.LENGTH_SHORT).show()
+        } else {
+
+            Toast.makeText(applicationContext,"Permission Not Yet Granted",Toast.LENGTH_SHORT).show()
+           // Log.d(TAG, "PERMISSION NOT YET GRANTED")
+            requestPermission()
+        }
+
+
+        //----//
     }
+    private fun checkPermission(): Boolean =
+        if (SDK_INT >= Build.VERSION_CODES.R) {
+            Environment.isExternalStorageManager()
+        } else {
+            val result = ContextCompat.checkSelfPermission(this,
+                Permission.READ_EXTERNAL_STORAGE.toString()
+            )
+            val result1 = ContextCompat.checkSelfPermission(this,
+                WRITE_EXTERNAL_STORAGE.toString()
+            )
+            result == PERMISSION_GRANTED && result1 == PERMISSION_GRANTED
+        }
+
+
+    private fun requestPermission() =
+        if (SDK_INT >= Build.VERSION_CODES.R) {
+            try {
+                val intent = Intent(ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION)
+                intent.addCategory("android.intent.category.DEFAULT")
+                intent.data = Uri.parse(String.format("package:%s", applicationContext.packageName))
+                startActivityForResult(intent, PERMISSION_REQUEST_CODE)
+            } catch (e: Exception) {
+                val intent = Intent()
+                intent.action = ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION
+                startActivityForResult(intent, PERMISSION_REQUEST_CODE)
+            }
+        } else {
+            //below android 11
+            /*val permission = arrayOf(WRITE_EXTERNAL_STORAGE, Permission.READ_EXTERNAL_STORAGE)
+            ActivityCompat.requestPermissions(this, permission, PERMISSION_REQUEST_CODE)*/
+        }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, @Nullable data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode != PERMISSION_REQUEST_CODE) return
+
+        if (SDK_INT >= Build.VERSION_CODES.R) {
+            if (Environment.isExternalStorageManager()) {
+                //Log.d(TAG, "PERMISSION ANDROID 11 GRANTED")
+
+                Toast.makeText(applicationContext,"Permission Android 11 granted",Toast.LENGTH_SHORT).show()
+            } else {
+               // Log.d(TAG, "PERMISSION ANDROID 11 DENIED")
+
+                Toast.makeText(applicationContext,"Permission Android 11 Denied",Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
+        if (requestCode != PERMISSION_REQUEST_CODE) return
+
+        for (i in grantResults.indices) {
+            if (grantResults[i] != PERMISSION_GRANTED) {
+                //Log.d(TAG, "PERMISSION DENIED")
+
+                Toast.makeText(applicationContext,"Permission Denied",Toast.LENGTH_SHORT).show()
+                return
+            }
+        }
+       // Log.d(TAG, "PERMISSION GRANTED")
+
+        Toast.makeText(applicationContext,"Permission Granted",Toast.LENGTH_SHORT).show()
+    }
+    //---//
+
 
     private fun admobAds() {
         mAdView = findViewById(R.id.adView)
@@ -326,8 +433,5 @@ class MainActivity : DarkModeSwitchActivity(), OverlayExplanationCallback {
         }
     }
 
-    private companion object {
-        private const val DRAW_OVER_OTHER_APP_PERMISSION = 68
-        private const val STORAGE_PERMISSION = 64
-    }
+   
 }
