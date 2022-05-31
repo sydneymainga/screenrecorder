@@ -1,0 +1,396 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.Ijja.screenrecorder"
+4    android:versionCode="1"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:6:5-71
+11-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:6:22-68
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:7:5-77
+12-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:7:22-74
+13    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+13-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:8:5-78
+13-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:8:22-75
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:9:5-81
+14-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:10:5-67
+15-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:11:5-80
+16-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:11:22-77
+17    <uses-permission android:name="TASKS" />
+17-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:15:5-45
+17-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:15:22-42
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-66
+18-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-63
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:23:22-76
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:24:5-68
+20-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:24:22-65
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:26:22-107
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+22-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
+23
+24    <application
+24-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:17:5-68:19
+25        android:name="com.Ijja.screenrecorder.SCApp"
+25-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:20:9-53
+26        android:allowBackup="true"
+26-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:21:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\05f61c282a3cccb2d42fd5bc45cf9206\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:exported="true"
+29-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:18:9-32
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:22:9-43
+32        android:label="@string/app_name"
+32-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:23:9-41
+33        android:preserveLegacyExternalStorage="true"
+33-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:19:9-53
+34        android:requestLegacyExternalStorage="true"
+34-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:24:9-52
+35        android:roundIcon="@mipmap/ic_launcher_circle"
+35-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:25:9-55
+36        android:supportsRtl="true"
+36-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:26:9-35
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:27:9-40
+39        <meta-data
+39-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:29:9-31:52
+40            android:name="com.google.android.gms.ads.APPLICATION_ID"
+40-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:30:13-69
+41            android:value="@string/admob_app_id" />
+41-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:31:13-49
+42
+43        <activity
+43-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:33:9-47:20
+44            android:name="com.Ijja.screenrecorder.uiterfacec.mainactivities.MainActivity"
+44-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:34:13-90
+45            android:exported="true"
+45-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:37:13-36
+46            android:label="@string/app_name_short"
+46-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:35:13-51
+47            android:launchMode="singleInstance" >
+47-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:36:13-48
+48            <intent-filter>
+48-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:38:13-42:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:39:17-69
+49-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:39:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:41:17-77
+51-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:41:27-74
+52            </intent-filter>
+53
+54            <meta-data
+54-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:44:13-46:53
+55                android:name="android.app.shortcuts"
+55-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:45:17-53
+56                android:resource="@xml/shortcuts" />
+56-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:46:17-50
+57        </activity>
+58        <activity
+58-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:48:9-56:20
+59            android:name="com.Ijja.screenrecorder.shortcutsdirect.ShortcutActivity"
+59-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:49:13-84
+60            android:excludeFromRecents="true"
+60-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:50:13-46
+61            android:exported="true"
+61-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:52:13-36
+62            android:theme="@style/AppTheme.Transparent" >
+62-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:51:13-56
+63            <intent-filter>
+63-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:53:13-55:29
+64                <action android:name="android.intent.action.VIEW" />
+64-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:54:17-69
+64-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:54:25-66
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:58:9-65:20
+68            android:name="com.Ijja.screenrecorder.uiterfacec.settings.SettingsActivitymain"
+68-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:59:13-92
+69            android:exported="true"
+69-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:61:13-36
+70            android:label="@string/settings" >
+70-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:60:13-45
+71            <intent-filter>
+71-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:62:13-64:29
+72                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+72-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:63:17-99
+72-->C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:63:25-96
+73            </intent-filter>
+74        </activity>
+75
+76        <service
+76-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-20:35
+77            android:name="com.Ijja.screenrecorder.capturescrn.captureservice.BackgroundService"
+77-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-96
+78            android:enabled="true"
+78-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-35
+79            android:exported="false"
+79-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+80            android:foregroundServiceType="mediaProjection" />
+80-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-60
+81
+82        <provider
+82-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-30:20
+83            android:name="androidx.core.content.FileProvider"
+83-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-62
+84            android:authorities="com.Ijja.screenrecorder.provider"
+84-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-67
+85            android:exported="false"
+85-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-37
+86            android:grantUriPermissions="true" >
+86-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-47
+87            <meta-data
+87-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-29:58
+88                android:name="android.support.FILE_PROVIDER_PATHS"
+88-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:17-67
+89                android:resource="@xml/provider_paths" />
+89-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-55
+90        </provider>
+91
+92        <service
+92-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-41:19
+93            android:name="com.Ijja.screenrecorder.capturescrn.capturequicksetting.QuickSettingServices"
+93-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-104
+94            android:exported="true"
+94-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-36
+95            android:icon="@drawable/ic_quick_setting_record"
+95-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-61
+96            android:label="@string/app_name"
+96-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-45
+97            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+97-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-77
+98            <intent-filter>
+98-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-40:29
+99                <action android:name="android.service.quicksettings.action.QS_TILE" />
+99-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:17-87
+99-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:25-84
+100            </intent-filter>
+101        </service>
+102
+103        <activity
+103-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:9-46:59
+104            android:name="com.Ijja.screenrecorder.capturescrn.capturepermission.OverlaysPermissionActivity"
+104-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-108
+105            android:excludeFromRecents="true"
+105-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-46
+106            android:theme="@style/AppTheme.Transparent" />
+106-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-56
+107        <activity
+107-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:9-50:59
+108            android:name="com.Ijja.screenrecorder.capturescrn.captureservice.ErrorDialogActivity"
+108-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-98
+109            android:excludeFromRecents="true"
+109-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-46
+110            android:theme="@style/AppTheme.Transparent" />
+110-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-56
+111        <activity
+111-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:9-54:59
+112            android:name="com.Ijja.screenrecorder.capturescrn.capturepermission.CapturePermissionActivityStart"
+112-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-112
+113            android:excludeFromRecents="true"
+113-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-46
+114            android:theme="@style/AppTheme.Transparent" />
+114-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:13-56
+115        <activity
+115-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:9-58:59
+116            android:name="com.Ijja.screenrecorder.capturescrn.capturepermission.StoragePermissionActivity"
+116-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-107
+117            android:excludeFromRecents="true"
+117-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-46
+118            android:theme="@style/AppTheme.Transparent" />
+118-->[:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-56
+119
+120        <service
+120-->[com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:13:9-19:19
+121            android:name="com.google.firebase.components.ComponentDiscoveryService"
+121-->[com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:14:13-84
+122            android:directBootAware="true"
+122-->[com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+123            android:exported="false" >
+123-->[com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:15:13-37
+124            <meta-data
+124-->[com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:16:13-18:85
+125                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+125-->[com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:17:17-115
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:18:17-82
+127            <meta-data
+127-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:30:13-32:85
+128                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+128-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:31:17-139
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:32:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+131                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+131-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+134                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+134-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+136        </service>
+137
+138        <receiver
+138-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:29:9-33:20
+139            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+139-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:30:13-85
+140            android:enabled="true"
+140-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:31:13-35
+141            android:exported="false" >
+141-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:32:13-37
+142        </receiver>
+143
+144        <service
+144-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:35:9-38:40
+145            android:name="com.google.android.gms.measurement.AppMeasurementService"
+145-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:36:13-84
+146            android:enabled="true"
+146-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:37:13-35
+147            android:exported="false" />
+147-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:38:13-37
+148        <service
+148-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:39:9-43:72
+149            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+149-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:40:13-87
+150            android:enabled="true"
+150-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:41:13-35
+151            android:exported="false"
+151-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:42:13-37
+152            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+152-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:43:13-69
+153        <activity
+153-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:29:9-33:64
+154            android:name="com.google.android.gms.ads.AdActivity"
+154-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:30:13-65
+155            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+155-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:31:13-122
+156            android:exported="false"
+156-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:32:13-37
+157            android:theme="@android:style/Theme.Translucent" />
+157-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:33:13-61
+158
+159        <provider
+159-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:35:9-39:39
+160            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+160-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:36:13-76
+161            android:authorities="com.Ijja.screenrecorder.mobileadsinitprovider"
+161-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:37:13-73
+162            android:exported="false"
+162-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:38:13-37
+163            android:initOrder="100" />
+163-->[com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:39:13-36
+164
+165        <receiver
+165-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+166            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+166-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+167            android:exported="true"
+167-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+168            android:permission="com.google.android.c2dm.permission.SEND" >
+168-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+169            <intent-filter>
+169-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+170                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+170-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+170-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+171            </intent-filter>
+172        </receiver>
+173
+174        <provider
+174-->[com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+175            android:name="com.google.firebase.provider.FirebaseInitProvider"
+175-->[com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+176            android:authorities="com.Ijja.screenrecorder.firebaseinitprovider"
+176-->[com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+177            android:exported="false"
+177-->[com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+178            android:initOrder="100" />
+178-->[com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+179
+180        <activity
+180-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\47b68b5fbd782880f24eff2645f2941b\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+181            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+181-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\47b68b5fbd782880f24eff2645f2941b\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+182            android:exported="false"
+182-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\47b68b5fbd782880f24eff2645f2941b\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+183            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+183-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\47b68b5fbd782880f24eff2645f2941b\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+184
+185        <meta-data
+185-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9979533319e144517fe4e3aac9fb196c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+186            android:name="com.google.android.gms.version"
+186-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9979533319e144517fe4e3aac9fb196c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+187            android:value="@integer/google_play_services_version" />
+187-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9979533319e144517fe4e3aac9fb196c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+188
+189        <provider
+189-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4d06b8e9070ffb39f5d416a962d31c6a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+190            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+190-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4d06b8e9070ffb39f5d416a962d31c6a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+191            android:authorities="com.Ijja.screenrecorder.lifecycle-process"
+191-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4d06b8e9070ffb39f5d416a962d31c6a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+192            android:exported="false"
+192-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4d06b8e9070ffb39f5d416a962d31c6a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+193            android:multiprocess="true" />
+193-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4d06b8e9070ffb39f5d416a962d31c6a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+194
+195        <service
+195-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+196            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+196-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+197            android:exported="false" >
+197-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+198            <meta-data
+198-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+199                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+199-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+200                android:value="cct" />
+200-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+201        </service>
+202        <service
+202-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+203            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+203-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+204            android:exported="false"
+204-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+205            android:permission="android.permission.BIND_JOB_SERVICE" >
+205-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+206        </service>
+207
+208        <receiver
+208-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+209            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+209-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+210            android:exported="false" />
+210-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+211    </application>
+212
+213</manifest>

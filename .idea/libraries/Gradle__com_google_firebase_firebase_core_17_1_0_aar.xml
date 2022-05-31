@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-core:17.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c77a4e1c27c66c6e13ee78691cfcd253/jetified-firebase-core-17.1.0/res" />
+      <root url="file://$USER_HOME$/StudioProjects/app/caches/transforms-2/files-2.1/c77a4e1c27c66c6e13ee78691cfcd253/jetified-firebase-core-17.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/StudioProjects/app/caches/transforms-2/files-2.1/c77a4e1c27c66c6e13ee78691cfcd253/jetified-firebase-core-17.1.0/res" />
+      <root url="jar://$USER_HOME$/StudioProjects/app/caches/transforms-2/files-2.1/c77a4e1c27c66c6e13ee78691cfcd253/jetified-firebase-core-17.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/StudioProjects/app/caches/modules-2/files-2.1/com.google.firebase/firebase-core/17.1.0/fe98893ee733cc3273bcb20d2520312bfd78611/firebase-core-17.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

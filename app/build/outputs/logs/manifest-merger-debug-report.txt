@@ -1,0 +1,796 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
+MERGED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-61:12
+MERGED from [:notificationssetup] C:\Users\syd\Desktop\screenrecorder\screenrecorder\notificationssetup\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:uifiletm] C:\Users\syd\Desktop\screenrecorder\screenrecorder\uifiletm\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:utilcmnuse] C:\Users\syd\Desktop\screenrecorder\screenrecorder\utilcmnuse\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.afollestad.material-dialogs:files:3.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\801bcb8c4788ee081ee05da2f1f89c41\jetified-files-3.1.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.afollestad.material-dialogs:input:3.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\98da42f955b90ee853a2cdfe36af2be0\jetified-input-3.1.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.afollestad.material-dialogs:core:3.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\3ac616e3817dd2c348ce9d2ec038daa9\jetified-core-3.1.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.afollestad:assent:2.3.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\909347926abf5a10e8c67f2a9e13d896\jetified-assent-2.3.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.afollestad:recyclical:1.0.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c5b494adc6c5307be45114a427372afb\jetified-recyclical-1.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.afollestad:inline-activity-result:0.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\f40ec7a4dc29e46df92ec1a74f249592\jetified-inline-activity-result-0.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:17.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c77a4e1c27c66c6e13ee78691cfcd253\jetified-firebase-core-17.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.preference:preference:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\b6968032296a968bd7fed6c5e003a9cd\preference-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\efb3958161be0fbd0f0ec84541920f37\jetified-koin-androidx-viewmodel-2.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\46a64a078aa270d428991ec89c2c90e4\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\31f80ea324a87b0f9aa30ae0bd19c7db\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\14b3480eaeafa37ad9c18f20f34d1fd9\jetified-glide-4.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18cbb6f3b8ddf4faef83a81c6a5c0b6d\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\e63504744ae1831bfb4bb2f2dc5b41a6\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\965fc8ffcc9329bb2ef7a8530ffd063f\jetified-play-services-ads-19.1.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9d51327aef790e04c780e39609d2c650\jetified-firebase-analytics-17.4.4\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:2:1-22:12
+MERGED from [com.afollestad:rxkprefs:1.2.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0c7bdd7f8a652969b939505afd3701b9\jetified-rxkprefs-1.2.5\AndroidManifest.xml:2:1-13:12
+MERGED from [org.koin:koin-android:2.0.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c0a5c85f0feb017542ee90e01d3f09a4\jetified-koin-android-2.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\297a8dad33619f90c785e5aa12de36b5\jetified-rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fcc488ca237bc0c042eaefdc3285432\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0a3ee47bfc4afee428c6d3ab01f6a801\jetified-timber-4.7.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\bd5f340b8e10a56f6de259a15caeac8f\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-gass:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7c64c5470d1ab4e47f919bf01eca300b\jetified-play-services-gass-19.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\791fba04a4cba00dc0ca50fc54910633\jetified-play-services-measurement-sdk-17.4.4\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\add4c1d2fe04eb75950abf438bd76527\jetified-play-services-measurement-impl-17.4.4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\db62f0ab48f3c3d2130e35294aab1293\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\b2e25e3d3ca3c89b731e3639f0f0230d\jetified-firebase-installations-interop-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\74f557ef48fc3167cea1b8e1c41efc1d\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\47b68b5fbd782880f24eff2645f2941b\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\cf0e14a896a4a393a0cb580ac77c51e4\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\819c9838afa9f2387272bc47b323e59d\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\fc5ff73566e34788b3ba5513fb1d51f3\jetified-play-services-measurement-sdk-api-17.4.4\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ff931f6111b3aa74d4a5cbd364f9b5ac\jetified-play-services-measurement-base-17.4.4\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7b98f7516d10a23b2ad400a1fbc2ff4f\jetified-play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9979533319e144517fe4e3aac9fb196c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7c2bb86383cac43287bb439b7e440c59\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\3cbc8db8fb02aa1f7ab589ad59f8cb1e\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a8e2d2c2d80eb99c42a331808e4656a4\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\5ee6b184c276b62a38b5bb6b881d35e1\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\bea6c15a2f32c10c9d9fa780c8f6d108\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\3fa42d85deab1f21bc0c78442843a496\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\88ac5bcda62fe1b5a004a9f7b5ff8694\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\cde9048da3e292a531e1b453498f68ae\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0a9ca85649e5db9df9a4491366b2e4d0\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\d32c01df1864aba0cf62ffe26e1f791e\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0af93dac9f837309d034119698c2b15b\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c89bf4d7b7e4326cfe19006f924b56b6\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\b63a7ec60479abe3fcfd255e02fd1ea9\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4c0abe7c2023c168de5379c71a124e4e\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\3b06bd87be80cc22e0b4fa7fa591f8c8\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\b716952ac16afb274ee1f231ae663494\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\05f61c282a3cccb2d42fd5bc45cf9206\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c887dc050c600fd999172b7f8f22cf8c\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4d06b8e9070ffb39f5d416a962d31c6a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\960f598ab5e8b5db911bd16924a30aa1\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\1797c0fbc990d17f59b82a56d238aeee\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\63d095e76b4b50cd6b493caa1459070a\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\93ec78149242d42e22bf5f4975906add\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\5ac69652ae1ffccc9f3324a89e2fcf5d\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ae9b56c14b82dcf61691b6e340a81a87\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\2d12ce2da299f176bfb5d0acd21c4150\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\423b697cb950103ad57436f0adfb46cf\jetified-gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c713ff758102f0c617e4c5471063916d\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\2361952a78b92e165c6c1013a0369b83\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\33cfec445ffd7f8153dfbd83f11b2ae3\jetified-firebase-encoders-json-16.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\22749109aaa45e2063704d11d59b91b6\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9a0519a4aaebfe695faa355585f028a4\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\f4befc08be0c327c16e514be72ac4082\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\25861982f336bae024dad4ebf0197460\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\2ba4a89291bf5d244e1a5bb4c5f4539d\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0e341a02176e47e10da3fa462baa2508\jetified-play-services-ads-base-19.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\1d07aac04318340dcf6e270d970349c4\jetified-transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
+	package
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
+		INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:1-70:12
+		INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:7:22-74
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:8:22-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\add4c1d2fe04eb75950abf438bd76527\jetified-play-services-measurement-impl-17.4.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\add4c1d2fe04eb75950abf438bd76527\jetified-play-services-measurement-impl-17.4.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\fc5ff73566e34788b3ba5513fb1d51f3\jetified-play-services-measurement-sdk-api-17.4.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\fc5ff73566e34788b3ba5513fb1d51f3\jetified-play-services-measurement-sdk-api-17.4.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#TASKS
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:15:5-45
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:15:22-42
+application
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:17:5-68:19
+MERGED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-59:19
+MERGED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-59:19
+MERGED from [com.afollestad.material-dialogs:files:3.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\801bcb8c4788ee081ee05da2f1f89c41\jetified-files-3.1.0\AndroidManifest.xml:11:5-47
+MERGED from [com.afollestad.material-dialogs:files:3.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\801bcb8c4788ee081ee05da2f1f89c41\jetified-files-3.1.0\AndroidManifest.xml:11:5-47
+MERGED from [com.afollestad.material-dialogs:input:3.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\98da42f955b90ee853a2cdfe36af2be0\jetified-input-3.1.0\AndroidManifest.xml:11:5-47
+MERGED from [com.afollestad.material-dialogs:input:3.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\98da42f955b90ee853a2cdfe36af2be0\jetified-input-3.1.0\AndroidManifest.xml:11:5-47
+MERGED from [com.afollestad.material-dialogs:core:3.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\3ac616e3817dd2c348ce9d2ec038daa9\jetified-core-3.1.0\AndroidManifest.xml:11:5-47
+MERGED from [com.afollestad.material-dialogs:core:3.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\3ac616e3817dd2c348ce9d2ec038daa9\jetified-core-3.1.0\AndroidManifest.xml:11:5-47
+MERGED from [com.afollestad:assent:2.3.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\909347926abf5a10e8c67f2a9e13d896\jetified-assent-2.3.1\AndroidManifest.xml:11:5-20
+MERGED from [com.afollestad:assent:2.3.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\909347926abf5a10e8c67f2a9e13d896\jetified-assent-2.3.1\AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-core:17.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c77a4e1c27c66c6e13ee78691cfcd253\jetified-firebase-core-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c77a4e1c27c66c6e13ee78691cfcd253\jetified-firebase-core-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\efb3958161be0fbd0f0ec84541920f37\jetified-koin-androidx-viewmodel-2.0.1\AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\efb3958161be0fbd0f0ec84541920f37\jetified-koin-androidx-viewmodel-2.0.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\46a64a078aa270d428991ec89c2c90e4\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\46a64a078aa270d428991ec89c2c90e4\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\31f80ea324a87b0f9aa30ae0bd19c7db\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\31f80ea324a87b0f9aa30ae0bd19c7db\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\14b3480eaeafa37ad9c18f20f34d1fd9\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\14b3480eaeafa37ad9c18f20f34d1fd9\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18cbb6f3b8ddf4faef83a81c6a5c0b6d\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18cbb6f3b8ddf4faef83a81c6a5c0b6d\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9d51327aef790e04c780e39609d2c650\jetified-firebase-analytics-17.4.4\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9d51327aef790e04c780e39609d2c650\jetified-firebase-analytics-17.4.4\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:12:5-20:19
+MERGED from [com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:12:5-20:19
+MERGED from [com.afollestad:rxkprefs:1.2.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0c7bdd7f8a652969b939505afd3701b9\jetified-rxkprefs-1.2.5\AndroidManifest.xml:11:5-20
+MERGED from [com.afollestad:rxkprefs:1.2.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0c7bdd7f8a652969b939505afd3701b9\jetified-rxkprefs-1.2.5\AndroidManifest.xml:11:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0a3ee47bfc4afee428c6d3ab01f6a801\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0a3ee47bfc4afee428c6d3ab01f6a801\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7c64c5470d1ab4e47f919bf01eca300b\jetified-play-services-gass-19.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7c64c5470d1ab4e47f919bf01eca300b\jetified-play-services-gass-19.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\791fba04a4cba00dc0ca50fc54910633\jetified-play-services-measurement-sdk-17.4.4\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\791fba04a4cba00dc0ca50fc54910633\jetified-play-services-measurement-sdk-17.4.4\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\add4c1d2fe04eb75950abf438bd76527\jetified-play-services-measurement-impl-17.4.4\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\add4c1d2fe04eb75950abf438bd76527\jetified-play-services-measurement-impl-17.4.4\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\db62f0ab48f3c3d2130e35294aab1293\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\db62f0ab48f3c3d2130e35294aab1293\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\74f557ef48fc3167cea1b8e1c41efc1d\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\74f557ef48fc3167cea1b8e1c41efc1d\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\47b68b5fbd782880f24eff2645f2941b\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\47b68b5fbd782880f24eff2645f2941b\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\cf0e14a896a4a393a0cb580ac77c51e4\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\cf0e14a896a4a393a0cb580ac77c51e4\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\819c9838afa9f2387272bc47b323e59d\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\819c9838afa9f2387272bc47b323e59d\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ff931f6111b3aa74d4a5cbd364f9b5ac\jetified-play-services-measurement-base-17.4.4\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ff931f6111b3aa74d4a5cbd364f9b5ac\jetified-play-services-measurement-base-17.4.4\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7b98f7516d10a23b2ad400a1fbc2ff4f\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7b98f7516d10a23b2ad400a1fbc2ff4f\jetified-play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9979533319e144517fe4e3aac9fb196c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9979533319e144517fe4e3aac9fb196c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\05f61c282a3cccb2d42fd5bc45cf9206\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\05f61c282a3cccb2d42fd5bc45cf9206\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c887dc050c600fd999172b7f8f22cf8c\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c887dc050c600fd999172b7f8f22cf8c\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4d06b8e9070ffb39f5d416a962d31c6a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4d06b8e9070ffb39f5d416a962d31c6a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\423b697cb950103ad57436f0adfb46cf\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\423b697cb950103ad57436f0adfb46cf\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0e341a02176e47e10da3fa462baa2508\jetified-play-services-ads-base-19.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0e341a02176e47e10da3fa462baa2508\jetified-play-services-ads-base-19.1.0\AndroidManifest.xml:7:5-20
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:24:9-52
+	android:preserveLegacyExternalStorage
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:19:9-53
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\05f61c282a3cccb2d42fd5bc45cf9206\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:23:9-41
+	android:exported
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:18:9-32
+	tools:ignore
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:28:9-60
+	android:roundIcon
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:25:9-55
+	android:icon
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:27:9-40
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:20:9-53
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:29:9-31:52
+	android:value
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:31:13-49
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:30:13-69
+activity#com.Ijja.screenrecorder.uiterfacec.mainactivities.MainActivity
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:33:9-47:20
+	android:label
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:35:13-51
+	android:launchMode
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:36:13-48
+	android:exported
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:34:13-90
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:41:27-74
+meta-data#android.app.shortcuts
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:44:13-46:53
+	android:resource
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:46:17-50
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:45:17-53
+activity#com.Ijja.screenrecorder.shortcutsdirect.ShortcutActivity
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:48:9-56:20
+	android:excludeFromRecents
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:50:13-46
+	android:exported
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:52:13-36
+	android:theme
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:51:13-56
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:49:13-84
+intent-filter#action:name:android.intent.action.VIEW
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:53:13-55:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:54:17-69
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:54:25-66
+activity#com.Ijja.screenrecorder.uiterfacec.settings.SettingsActivitymain
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:58:9-65:20
+	android:label
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:60:13-45
+	android:exported
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:61:13-36
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:59:13-92
+intent-filter#action:name:android.service.quicksettings.action.QS_TILE_PREFERENCES
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:62:13-64:29
+action#android.service.quicksettings.action.QS_TILE_PREFERENCES
+ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:63:17-99
+	android:name
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml:63:25-96
+uses-sdk
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+MERGED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:notificationssetup] C:\Users\syd\Desktop\screenrecorder\screenrecorder\notificationssetup\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:notificationssetup] C:\Users\syd\Desktop\screenrecorder\screenrecorder\notificationssetup\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:uifiletm] C:\Users\syd\Desktop\screenrecorder\screenrecorder\uifiletm\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:uifiletm] C:\Users\syd\Desktop\screenrecorder\screenrecorder\uifiletm\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:utilcmnuse] C:\Users\syd\Desktop\screenrecorder\screenrecorder\utilcmnuse\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:utilcmnuse] C:\Users\syd\Desktop\screenrecorder\screenrecorder\utilcmnuse\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad.material-dialogs:files:3.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\801bcb8c4788ee081ee05da2f1f89c41\jetified-files-3.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad.material-dialogs:files:3.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\801bcb8c4788ee081ee05da2f1f89c41\jetified-files-3.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad.material-dialogs:input:3.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\98da42f955b90ee853a2cdfe36af2be0\jetified-input-3.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad.material-dialogs:input:3.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\98da42f955b90ee853a2cdfe36af2be0\jetified-input-3.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad.material-dialogs:core:3.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\3ac616e3817dd2c348ce9d2ec038daa9\jetified-core-3.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad.material-dialogs:core:3.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\3ac616e3817dd2c348ce9d2ec038daa9\jetified-core-3.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad:assent:2.3.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\909347926abf5a10e8c67f2a9e13d896\jetified-assent-2.3.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad:assent:2.3.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\909347926abf5a10e8c67f2a9e13d896\jetified-assent-2.3.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad:recyclical:1.0.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c5b494adc6c5307be45114a427372afb\jetified-recyclical-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad:recyclical:1.0.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c5b494adc6c5307be45114a427372afb\jetified-recyclical-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad:inline-activity-result:0.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\f40ec7a4dc29e46df92ec1a74f249592\jetified-inline-activity-result-0.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad:inline-activity-result:0.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\f40ec7a4dc29e46df92ec1a74f249592\jetified-inline-activity-result-0.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:17.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c77a4e1c27c66c6e13ee78691cfcd253\jetified-firebase-core-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c77a4e1c27c66c6e13ee78691cfcd253\jetified-firebase-core-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.preference:preference:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\b6968032296a968bd7fed6c5e003a9cd\preference-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\b6968032296a968bd7fed6c5e003a9cd\preference-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\efb3958161be0fbd0f0ec84541920f37\jetified-koin-androidx-viewmodel-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\efb3958161be0fbd0f0ec84541920f37\jetified-koin-androidx-viewmodel-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\46a64a078aa270d428991ec89c2c90e4\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\46a64a078aa270d428991ec89c2c90e4\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\31f80ea324a87b0f9aa30ae0bd19c7db\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\31f80ea324a87b0f9aa30ae0bd19c7db\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\14b3480eaeafa37ad9c18f20f34d1fd9\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\14b3480eaeafa37ad9c18f20f34d1fd9\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18cbb6f3b8ddf4faef83a81c6a5c0b6d\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18cbb6f3b8ddf4faef83a81c6a5c0b6d\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\e63504744ae1831bfb4bb2f2dc5b41a6\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\e63504744ae1831bfb4bb2f2dc5b41a6\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-ads:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\965fc8ffcc9329bb2ef7a8530ffd063f\jetified-play-services-ads-19.1.0\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\965fc8ffcc9329bb2ef7a8530ffd063f\jetified-play-services-ads-19.1.0\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.firebase:firebase-analytics:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9d51327aef790e04c780e39609d2c650\jetified-firebase-analytics-17.4.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9d51327aef790e04c780e39609d2c650\jetified-firebase-analytics-17.4.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.afollestad:rxkprefs:1.2.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0c7bdd7f8a652969b939505afd3701b9\jetified-rxkprefs-1.2.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad:rxkprefs:1.2.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0c7bdd7f8a652969b939505afd3701b9\jetified-rxkprefs-1.2.5\AndroidManifest.xml:7:5-9:41
+MERGED from [org.koin:koin-android:2.0.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c0a5c85f0feb017542ee90e01d3f09a4\jetified-koin-android-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android:2.0.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c0a5c85f0feb017542ee90e01d3f09a4\jetified-koin-android-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\297a8dad33619f90c785e5aa12de36b5\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\297a8dad33619f90c785e5aa12de36b5\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fcc488ca237bc0c042eaefdc3285432\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fcc488ca237bc0c042eaefdc3285432\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0a3ee47bfc4afee428c6d3ab01f6a801\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0a3ee47bfc4afee428c6d3ab01f6a801\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\bd5f340b8e10a56f6de259a15caeac8f\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\bd5f340b8e10a56f6de259a15caeac8f\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7c64c5470d1ab4e47f919bf01eca300b\jetified-play-services-gass-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7c64c5470d1ab4e47f919bf01eca300b\jetified-play-services-gass-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\791fba04a4cba00dc0ca50fc54910633\jetified-play-services-measurement-sdk-17.4.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\791fba04a4cba00dc0ca50fc54910633\jetified-play-services-measurement-sdk-17.4.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\add4c1d2fe04eb75950abf438bd76527\jetified-play-services-measurement-impl-17.4.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\add4c1d2fe04eb75950abf438bd76527\jetified-play-services-measurement-impl-17.4.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\db62f0ab48f3c3d2130e35294aab1293\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\db62f0ab48f3c3d2130e35294aab1293\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\b2e25e3d3ca3c89b731e3639f0f0230d\jetified-firebase-installations-interop-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\b2e25e3d3ca3c89b731e3639f0f0230d\jetified-firebase-installations-interop-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\74f557ef48fc3167cea1b8e1c41efc1d\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\74f557ef48fc3167cea1b8e1c41efc1d\jetified-firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\47b68b5fbd782880f24eff2645f2941b\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\47b68b5fbd782880f24eff2645f2941b\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\cf0e14a896a4a393a0cb580ac77c51e4\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\cf0e14a896a4a393a0cb580ac77c51e4\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\819c9838afa9f2387272bc47b323e59d\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\819c9838afa9f2387272bc47b323e59d\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\fc5ff73566e34788b3ba5513fb1d51f3\jetified-play-services-measurement-sdk-api-17.4.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\fc5ff73566e34788b3ba5513fb1d51f3\jetified-play-services-measurement-sdk-api-17.4.4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ff931f6111b3aa74d4a5cbd364f9b5ac\jetified-play-services-measurement-base-17.4.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ff931f6111b3aa74d4a5cbd364f9b5ac\jetified-play-services-measurement-base-17.4.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7b98f7516d10a23b2ad400a1fbc2ff4f\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7b98f7516d10a23b2ad400a1fbc2ff4f\jetified-play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9979533319e144517fe4e3aac9fb196c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9979533319e144517fe4e3aac9fb196c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7c2bb86383cac43287bb439b7e440c59\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7c2bb86383cac43287bb439b7e440c59\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\3cbc8db8fb02aa1f7ab589ad59f8cb1e\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\3cbc8db8fb02aa1f7ab589ad59f8cb1e\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a8e2d2c2d80eb99c42a331808e4656a4\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a8e2d2c2d80eb99c42a331808e4656a4\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\5ee6b184c276b62a38b5bb6b881d35e1\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\5ee6b184c276b62a38b5bb6b881d35e1\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\bea6c15a2f32c10c9d9fa780c8f6d108\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\bea6c15a2f32c10c9d9fa780c8f6d108\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\3fa42d85deab1f21bc0c78442843a496\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\3fa42d85deab1f21bc0c78442843a496\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\88ac5bcda62fe1b5a004a9f7b5ff8694\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\88ac5bcda62fe1b5a004a9f7b5ff8694\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\cde9048da3e292a531e1b453498f68ae\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\cde9048da3e292a531e1b453498f68ae\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0a9ca85649e5db9df9a4491366b2e4d0\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0a9ca85649e5db9df9a4491366b2e4d0\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\d32c01df1864aba0cf62ffe26e1f791e\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\d32c01df1864aba0cf62ffe26e1f791e\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0af93dac9f837309d034119698c2b15b\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0af93dac9f837309d034119698c2b15b\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c89bf4d7b7e4326cfe19006f924b56b6\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c89bf4d7b7e4326cfe19006f924b56b6\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\b63a7ec60479abe3fcfd255e02fd1ea9\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\b63a7ec60479abe3fcfd255e02fd1ea9\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4c0abe7c2023c168de5379c71a124e4e\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4c0abe7c2023c168de5379c71a124e4e\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\3b06bd87be80cc22e0b4fa7fa591f8c8\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\3b06bd87be80cc22e0b4fa7fa591f8c8\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\b716952ac16afb274ee1f231ae663494\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\b716952ac16afb274ee1f231ae663494\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\05f61c282a3cccb2d42fd5bc45cf9206\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\05f61c282a3cccb2d42fd5bc45cf9206\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c887dc050c600fd999172b7f8f22cf8c\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c887dc050c600fd999172b7f8f22cf8c\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4d06b8e9070ffb39f5d416a962d31c6a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4d06b8e9070ffb39f5d416a962d31c6a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\960f598ab5e8b5db911bd16924a30aa1\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\960f598ab5e8b5db911bd16924a30aa1\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\1797c0fbc990d17f59b82a56d238aeee\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\1797c0fbc990d17f59b82a56d238aeee\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\63d095e76b4b50cd6b493caa1459070a\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\63d095e76b4b50cd6b493caa1459070a\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\93ec78149242d42e22bf5f4975906add\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\93ec78149242d42e22bf5f4975906add\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\5ac69652ae1ffccc9f3324a89e2fcf5d\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\5ac69652ae1ffccc9f3324a89e2fcf5d\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ae9b56c14b82dcf61691b6e340a81a87\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ae9b56c14b82dcf61691b6e340a81a87\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\2d12ce2da299f176bfb5d0acd21c4150\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\2d12ce2da299f176bfb5d0acd21c4150\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\423b697cb950103ad57436f0adfb46cf\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\423b697cb950103ad57436f0adfb46cf\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c713ff758102f0c617e4c5471063916d\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c713ff758102f0c617e4c5471063916d\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\2361952a78b92e165c6c1013a0369b83\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\2361952a78b92e165c6c1013a0369b83\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\33cfec445ffd7f8153dfbd83f11b2ae3\jetified-firebase-encoders-json-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\33cfec445ffd7f8153dfbd83f11b2ae3\jetified-firebase-encoders-json-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\22749109aaa45e2063704d11d59b91b6\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\22749109aaa45e2063704d11d59b91b6\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9a0519a4aaebfe695faa355585f028a4\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9a0519a4aaebfe695faa355585f028a4\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\f4befc08be0c327c16e514be72ac4082\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\f4befc08be0c327c16e514be72ac4082\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\25861982f336bae024dad4ebf0197460\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\25861982f336bae024dad4ebf0197460\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\2ba4a89291bf5d244e1a5bb4c5f4539d\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\2ba4a89291bf5d244e1a5bb4c5f4539d\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0e341a02176e47e10da3fa462baa2508\jetified-play-services-ads-base-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\0e341a02176e47e10da3fa462baa2508\jetified-play-services-ads-base-19.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\1d07aac04318340dcf6e270d970349c4\jetified-transport-api-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\1d07aac04318340dcf6e270d970349c4\jetified-transport-api-2.2.0\AndroidManifest.xml:18:5-20:41
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\965fc8ffcc9329bb2ef7a8530ffd063f\jetified-play-services-ads-19.1.0\AndroidManifest.xml:23:9-49
+	android:targetSdkVersion
+		INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\syd\Desktop\screenrecorder\screenrecorder\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-63
+service#com.Ijja.screenrecorder.capturescrn.captureservice.BackgroundService
+ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-20:35
+	android:enabled
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-35
+	android:exported
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+	tools:targetApi
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-32
+	android:foregroundServiceType
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-60
+	android:name
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-96
+provider#androidx.core.content.FileProvider
+ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-30:20
+	android:grantUriPermissions
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-47
+	android:authorities
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-67
+	android:exported
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-29:58
+	android:resource
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-55
+	android:name
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:17-67
+service#com.Ijja.screenrecorder.capturescrn.capturequicksetting.QuickSettingServices
+ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-41:19
+	android:label
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-45
+	android:exported
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-77
+	android:icon
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-61
+	android:name
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-104
+intent-filter#action:name:android.service.quicksettings.action.QS_TILE
+ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-40:29
+action#android.service.quicksettings.action.QS_TILE
+ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:17-87
+	android:name
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:25-84
+activity#com.Ijja.screenrecorder.capturescrn.capturepermission.OverlaysPermissionActivity
+ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:9-46:59
+	android:excludeFromRecents
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-46
+	android:theme
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-56
+	android:name
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-108
+activity#com.Ijja.screenrecorder.capturescrn.captureservice.ErrorDialogActivity
+ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:9-50:59
+	android:excludeFromRecents
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-46
+	android:theme
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-56
+	android:name
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-98
+activity#com.Ijja.screenrecorder.capturescrn.capturepermission.CapturePermissionActivityStart
+ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:9-54:59
+	android:excludeFromRecents
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-46
+	android:theme
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:13-56
+	android:name
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-112
+activity#com.Ijja.screenrecorder.capturescrn.capturepermission.StoragePermissionActivity
+ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:9-58:59
+	android:excludeFromRecents
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-46
+	android:theme
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-56
+	android:name
+		ADDED from [:capturescrn] C:\Users\syd\Desktop\screenrecorder\screenrecorder\capturescrn\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-107
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:13:9-19:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:15:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:14:13-84
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:16:13-18:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:18:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:17.1.1] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\c639ece5e8cdfb9e25cfa4dfc6ac21e7\jetified-firebase-crashlytics-17.1.1\AndroidManifest.xml:17:17-115
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\add4c1d2fe04eb75950abf438bd76527\jetified-play-services-measurement-impl-17.4.4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\add4c1d2fe04eb75950abf438bd76527\jetified-play-services-measurement-impl-17.4.4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\fc5ff73566e34788b3ba5513fb1d51f3\jetified-play-services-measurement-sdk-api-17.4.4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\fc5ff73566e34788b3ba5513fb1d51f3\jetified-play-services-measurement-sdk-api-17.4.4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\add4c1d2fe04eb75950abf438bd76527\jetified-play-services-measurement-impl-17.4.4\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\add4c1d2fe04eb75950abf438bd76527\jetified-play-services-measurement-impl-17.4.4\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\fc5ff73566e34788b3ba5513fb1d51f3\jetified-play-services-measurement-sdk-api-17.4.4\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\fc5ff73566e34788b3ba5513fb1d51f3\jetified-play-services-measurement-sdk-api-17.4.4\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\a9720a6f3d9a62c9678165b9654ba5f3\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\add4c1d2fe04eb75950abf438bd76527\jetified-play-services-measurement-impl-17.4.4\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\add4c1d2fe04eb75950abf438bd76527\jetified-play-services-measurement-impl-17.4.4\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.4] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\7bb83301ee447c63e37bb471bbdcc7bc\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:40:13-87
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:30:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:35:9-39:39
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:37:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:38:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.1.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9b03fc5f71c68e52501a6b07d36b6b51\jetified-play-services-ads-lite-19.1.0\AndroidManifest.xml:36:13-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\6fb9e2a39c6614d7b1e04df5db7698a9\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\18d9134ee84c53099f64ff4341dcc410\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4bf3f2548ed936be73538883e6794b76\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\47b68b5fbd782880f24eff2645f2941b\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\47b68b5fbd782880f24eff2645f2941b\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\47b68b5fbd782880f24eff2645f2941b\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\47b68b5fbd782880f24eff2645f2941b\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9979533319e144517fe4e3aac9fb196c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9979533319e144517fe4e3aac9fb196c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\9979533319e144517fe4e3aac9fb196c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4d06b8e9070ffb39f5d416a962d31c6a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4d06b8e9070ffb39f5d416a962d31c6a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4d06b8e9070ffb39f5d416a962d31c6a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4d06b8e9070ffb39f5d416a962d31c6a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\4d06b8e9070ffb39f5d416a962d31c6a\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\ec7d47160ea534a1b0630dc231476638\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\syd\StudioProjects\app\caches\transforms-2\files-2.1\105c15cf5bdf4b7f5a59e2cbaf05fb88\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "289096339114",
+    "project_id": "screenrecorder-b1536",
+    "storage_bucket": "screenrecorder-b1536.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289096339114:android:0897e446b710c0b561cad3",
+        "android_client_info": {
+          "package_name": "com.Ijja.screenrecorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289096339114-pl5r275url5cgvqqgjl443dnrmrl9qkb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxgfHgxaIto6geKc2iIPvb2XXEzXp20zA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289096339114-pl5r275url5cgvqqgjl443dnrmrl9qkb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
